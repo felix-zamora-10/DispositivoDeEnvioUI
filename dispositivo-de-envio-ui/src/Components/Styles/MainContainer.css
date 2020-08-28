@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 91% 3% 3% 3%;
+  padding: 10px;
+}
+
+.grid-message-area {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  max-height: 100%;
+  text-align: center;
+  overflow: auto;
+}
